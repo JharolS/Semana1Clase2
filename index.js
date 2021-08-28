@@ -91,3 +91,39 @@ console.log(stringPrimitive1.trim());
 
 const newString = stringPrimitive1.replace(/dog/gi, "Eagle");
 console.log(newString);
+
+//implicit conversion
+//subtraction
+console.log("15" - "10");
+//Modulo
+console.log("15"%"10");
+//concatenatio
+console.log("15"+"10");
+console.log(true);
+console.log(String(true));
+const stringValue= String(49);
+const numberExample=49
+console.log(typeof stringValue);
+console.log(typeof numberExample); 
+console.log(numberExample.toString());
+
+const street = " ";
+console.log(Number(street));
+console.log(Boolean(0));
+console.log(Boolean(NaN));
+console.log(Boolean(undefined));
+console.log(Boolean(null));
+console.log(Boolean(2000));
+console.log(Boolean(" "));
+console.log(Boolean("Hola"));
+console.log(Boolean("0"));
+var user="Daniel"
+let username="Daniel"
+
+const age=23;
+//Pascal case // Components in React // Class Javascript
+const ageFrom= 23;
+// Camel case // Variables / Function in Javascript
+const AgeFrom=22;
+// snake-case // Variables / Functions
+// kebak-case // Variables / Functions 
