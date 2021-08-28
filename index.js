@@ -62,3 +62,32 @@ let name="Daniel"
 console.log("Hola, " + name);
 console.log('Hola name');
 console.log(`Hola, ${name}`);
+
+let poem ="The wide Ocean";
+const author = "Pablo Neruda";
+
+const favesPoemliteral =`My favorite poem is ${poem} by ${author}`
+const favesPoem= poem + " by " + author;
+
+console.log(favesPoemliteral);
+console.log(favesPoem);
+
+const stringPrimitive = "I'm a staring";
+console.log(typeof stringPrimitive);
+const stringObject = new String("I'm a string");
+console.log(typeof stringObject);
+const stringPrimitive1= "       dog cat fish     ";
+
+console.log(stringPrimitive[0]);
+console.log(stringPrimitive.charAt(0));
+console.log(stringPrimitive.indexOf("a"));
+console.log(stringPrimitive.lastIndexOf("a"));
+console.log(stringPrimitive.slice(8, 11));
+console.log(stringPrimitive.length);
+console.log(stringPrimitive.toUpperCase());
+console.log(stringPrimitive.toLowerCase());
+console.log(stringPrimitive.split(" ", 2));
+console.log(stringPrimitive1.trim());
+
+const newString = stringPrimitive1.replace(/dog/gi, "Eagle");
+console.log(newString);
