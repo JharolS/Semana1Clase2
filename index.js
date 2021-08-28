@@ -122,8 +122,8 @@ let username="Daniel"
 
 const age=23;
 //Pascal case // Components in React // Class Javascript
-const ageFrom= 23;
+const AgeFrom= 23;
 // Camel case // Variables / Function in Javascript
-const AgeFrom=22;
+const ageFrom=22;
 // snake-case // Variables / Functions
 // kebak-case // Variables / Functions 
