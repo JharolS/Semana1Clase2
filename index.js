@@ -145,3 +145,49 @@ const car = {
 car.color="blue"
 
 console.log(car);
+
+//Arithemtic Operators
+//Addition +
+var sum1=5.7
+var sum2=10.1
+var sumTotal=sum1+sum2
+console.log(sumTotal)
+//Subtraction -
+console.log(10-1)
+//Multiplication *
+console.log(10*1)
+
+const price= 20.50
+const taxRate=0.18
+
+let totalPrice= price + (price * taxRate);
+let fixedPrice =totalPrice.toFixed(2); // Convert to string
+console.log("Total:", fixedPrice)
+//Division /    
+console.log(10/2)
+//modulo %
+//exponentation **
+//increment ++
+let increment = 7
+let prefix = ++increment
+console.log(prefix)
+//decrement --
+let decrement = 7 
+let postfix = --decrement
+console.log(postfix)
+//sufijo
+let aa=7
+let bb=aa--
+console.log(aa)
+console.log(bb)
+//prefijo
+let cc=3
+let dd=--cc
+console.log(cc)
+console.log(dd)
+
+let carPrice=15000
+
+carPrice +=1000
+
+console.log(carPrice)
