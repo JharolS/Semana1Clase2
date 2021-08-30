@@ -117,8 +117,15 @@ console.log(Boolean(2000));
 console.log(Boolean(" "));
 console.log(Boolean("Hola"));
 console.log(Boolean("0"));
-var user="Daniel"
+var user;
+user="Daniel"
+var user="Soto";
 let username="Daniel"
+
+const sum= () => {
+    const sumtotal=10;
+    return sumtotal;
+}
 
 const age=23;
 //Pascal case // Components in React // Class Javascript
@@ -127,3 +134,14 @@ const AgeFrom= 23;
 const ageFrom=22;
 // snake-case // Variables / Functions
 // kebak-case // Variables / Functions 
+
+let x = 100;
+
+const car = {
+    price:1500,
+    color:"red"
+}
+
+car.color="blue"
+
+console.log(car);
