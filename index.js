@@ -166,6 +166,8 @@ console.log("Total:", fixedPrice)
 //Division /    
 console.log(10/2)
 //modulo %
+console.log("Modulo % 5", 12%5)
+console.log("Resto % 5 " -12%5)
 //exponentation **
 //increment ++
 let increment = 7
@@ -186,8 +188,35 @@ let dd=--cc
 console.log(cc)
 console.log(dd)
 
+//Assignment Operators
+//Assignment
+//Addition +=
 let carPrice=15000
 
 carPrice +=1000
 
 console.log(carPrice)
+// Subtraction -=
+// Multiplication *=
+// Diviosn /=
+// Modulo %=
+// Exponentiaton **=
+
+//first multiply , then add
+
+console.log(10+3*5);
+
+//first add , then multiply
+
+console.log((10+3)*5);
+
+//Level of procedence
+//Parentheses ()
+//Increment ++
+//Decrement --
+//Exponentiaton **
+//Multiplication *
+//Division /
+//Addition +
+//Subtraction -
+
