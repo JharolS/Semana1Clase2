@@ -220,3 +220,40 @@ console.log((10+3)*5);
 //Addition +
 //Subtraction -
 
+// {name||key: value (pairs)}
+
+const person={
+    name:"Daniel",
+    surname:"Soto",
+    age:23,
+    position: "Developer",
+    Salary: 1500,
+    isMarried: true,
+    children:["Daniel","Soto"],
+    location: "Lima",
+    greet: function(){
+        console.log(`Hola my name is ${this.name}`);
+    },
+}
+// dot notation
+console.log(person.name);
+// Bracket Notation
+console.log(person[`name`]);
+person.greet();
+
+person.age=28;
+person["age"]=19;
+
+person.coding= function () {
+    return `Daniel coding in ${this.location}`
+}
+delete person.coding;
+console.log(person)
+
+for(let key in person) {
+    console.log(`${key.toUpperCase()}: ${person[key]}`);
+}
+
+const keysPersonValue = Object.keys(person)
+
+console.log(keysPersonValue);
